@@ -1,8 +1,8 @@
 # Leave Management Automation with Google Apps Script
-📋 Overview
+# 📋 Overview
   This Google Apps Script automates the leave management process within a Google Sheet. It handles leave requests, approvals, rejections, and sends email notifications based on predefined business rules.​
 
-🚀 Features
+# 🚀 Features
   Automated Leave Processing: Automatically processes leave requests entered in the sheet.​
 
 Approval Thresholds: Enforces a maximum number of approved leaves per day.​
@@ -14,14 +14,8 @@ Manual Overrides: Allows authorized personnel to manually approve or reject leav
 Access Control: Restricts approval actions to designated users.​
 
 Audit Trail: Logs processed requests for transparency and record-keeping.​
-Reddit
-+3
-GitHub
-+3
-GitHub
-+3
 
-🛠️ How It Works
+# 🛠️ How It Works
 Leave Request Entry: Employees enter their leave requests (e.g., 'PL' for Paid Leave, 'P-Half' for Half-day Leave) in the designated columns of the Google Sheet.​
 
 Trigger Activation: The onEdit trigger activates when a cell within the leave request range is edited.​
